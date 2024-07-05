@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Header from './assets/components/Header';
-import Profile from './assets/components/Profile';
-import SobreMim from './assets/components/sobreMim';
-import Conhecimentos from './assets/components/conhecimento';
-import Projetos from './assets/components/projetos';
-import Contatos from './assets/components/contatos';
-import Footer from './assets/components/footer';
+import Header from './components/Header';
+import Profile from './components/Profile';
+import SobreMim from './components/sobreMim';
+import Conhecimentos from './components/conhecimento';
+import Projetos from './components/projetos';
+import Contatos from './components/contatos';
+import Footer from './components/footer';
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
