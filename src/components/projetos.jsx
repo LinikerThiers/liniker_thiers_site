@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'; 
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'; 
-import futebolStatistics from "../img/futebol-statistics.png";
-import oldEcommerce from "../img/old-e-commerce.png";
-import pokedex from "../img/pokedex.png";
+// import futebolStatistics from "../img/futebol-statistics.png";
+// import oldEcommerce from "../img/old-e-commerce.png";
+// import pokedex from "../img/pokedex.png";
 
 
 const Projetos = ({ isDarkMode }) => {
@@ -17,7 +17,7 @@ const Projetos = ({ isDarkMode }) => {
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Futebol Statistics</h3>
                     <img
                         alt='Imagem Futebol Statistics'
-                        src={futebolStatistics}
+                        src="https://github.com/LinikerThiers/liniker_thiers_site/assets/89757097/90ced5e4-bcf6-4820-a3a0-5e0a2ab11afa"
                         className='w-full h-auto mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
@@ -38,7 +38,7 @@ const Projetos = ({ isDarkMode }) => {
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>OLD e-Commerce</h3>
                     <img
                         alt='Imagem old e-commerce'
-                        src={oldEcommerce}
+                        src="https://github.com/LinikerThiers/liniker_thiers_site/assets/89757097/9e609476-2a64-4bb5-88f5-e6fd1a867d4c"
                         className='w-full h-auto mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
@@ -59,7 +59,7 @@ const Projetos = ({ isDarkMode }) => {
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Pokedex</h3>
                     <img
                         alt='Imagem Pokedex'
-                        src={pokedex}
+                        src="https://github.com/LinikerThiers/liniker_thiers_site/assets/89757097/451ab33c-9b83-4b46-8456-1f067688fcd7"
                         className='w-full h-auto mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
