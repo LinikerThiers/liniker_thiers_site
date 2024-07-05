@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons'; // Para ícones de marcas como GitHub
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'; // Para ícones sólidos como link externo
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; 
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'; 
+import futebolStatistics from "../img/futebol-statistics.png";
+import oldEcommerce from "../img/old-e-commerce.png";
+import pokedex from "../img/pokedex.png";
 
 
 const Projetos = ({ isDarkMode }) => {
@@ -14,7 +17,7 @@ const Projetos = ({ isDarkMode }) => {
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Futebol Statistics</h3>
                     <img
                         alt='Imagem Futebol Statistics'
-                        src='./src/assets/img/futebol-statistics.png'
+                        src={futebolStatistics}
                         className='w-full h-auto mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
@@ -35,7 +38,7 @@ const Projetos = ({ isDarkMode }) => {
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>OLD e-Commerce</h3>
                     <img
                         alt='Imagem old e-commerce'
-                        src='./src/assets/img/old-e-commerce.png'
+                        src={oldEcommerce}
                         className='w-full h-auto mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
@@ -56,7 +59,7 @@ const Projetos = ({ isDarkMode }) => {
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Pokedex</h3>
                     <img
                         alt='Imagem Pokedex'
-                        src='./src/assets/img/pokedex.png'
+                        src={pokedex}
                         className='w-full h-auto mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>

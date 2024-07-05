@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import profileImage from '../img/profile.jpg';
 
 const Profile = ({ isDarkMode }) => {
     return (
@@ -8,7 +9,7 @@ const Profile = ({ isDarkMode }) => {
             <div className="lg:w-1/2 flex flex-col items-center lg:items-end justify-center text-center lg:pr-8">
                 <img
                     alt="Profile Image"
-                    src="./src/assets/img/profile.jpg"
+                    src={profileImage}
                     className="w-44 h-44 md:w-52 md:h-52 md:mb-5 lg:w-96 lg:h-96 rounded-full object-cover"
                 />
             </div>
