@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import profileImage from '/assets/img/profile.jpg';
+import profileImage from '../../public/assets/img/profile.jpg';
 
 const Profile = ({ isDarkMode }) => {
     return (
