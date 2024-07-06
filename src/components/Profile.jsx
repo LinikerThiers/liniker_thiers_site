@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import profilePhoto from '/profile.svg'
 
 const Profile = ({ isDarkMode }) => {
     return (
@@ -8,7 +9,7 @@ const Profile = ({ isDarkMode }) => {
             <div className="lg:w-1/2 flex flex-col items-center lg:items-end justify-center text-center lg:pr-8">
                 <img
                     alt="Profile Image"
-                    src="https://github.com/LinikerThiers/liniker_thiers_site/assets/89757097/81211931-d2f6-47d8-b003-3151537f1591"
+                    src={profilePhoto}
                     className="w-44 h-44 md:w-52 md:h-52 md:mb-5 lg:w-96 lg:h-96 rounded-full object-cover"
                 />
             </div>
@@ -18,7 +19,7 @@ const Profile = ({ isDarkMode }) => {
                 <h3 className={`text-xl font-medium mt-2 ${isDarkMode ? 'text-white' : 'text-black'}`}>Fullstack Developer</h3>
                 <div className="flex space-x-4 mt-6">
                     <a
-                        href="https://github.com/user-attachments/files/16113425/curriculo-liniker-full-stack-2024.pdf"
+                        href="/curriculo-liniker-full-stack-2024.pdf"
                         download
                         className={`px-6 py-2 border border-black rounded-full hover:bg-gray-200 dark:border-white ${isDarkMode ? 'text-white' : 'text-black'}`}
                     >
