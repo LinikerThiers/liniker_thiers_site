@@ -19,7 +19,7 @@ const Profile = ({ isDarkMode }) => {
                 <h3 className={`text-xl font-medium mt-2 ${isDarkMode ? 'text-white' : 'text-black'}`}>Fullstack Developer</h3>
                 <div className="flex space-x-4 mt-6">
                     <a
-                        href="https://github.com/user-attachments/files/16197074/curriculo-liniker-full-stack-2024-1.pdf"
+                        href="https://github.com/user-attachments/files/16198295/curriculo-liniker-full-stack-2024-2.pdf"
                         download
                         className={`px-6 py-2 border border-black rounded-full hover:bg-gray-200 dark:border-white ${isDarkMode ? 'text-white' : 'text-black'}`}
                     >
