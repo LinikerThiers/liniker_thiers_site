@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons'; 
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'; 
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import futebolStatistics from '/futebol-statistics.svg'
 import oldEcommerce from '/old-e-commerce.svg'
 import pokedex from '/pokedex.svg'
 import calculadoraEscolar from '/calculadora-de-media-escolar.svg'
 import contadorPalavras from '/contador-de-palavras.svg'
+import walletWise from '/wallet-wise.svg'
 
 
 const Projetos = ({ isDarkMode }) => {
@@ -15,6 +16,27 @@ const Projetos = ({ isDarkMode }) => {
             <h2 className={`text-2xl font-medium ${isDarkMode ? 'text-gray-300' : 'text-gray-700'} mb-2`}>Meus</h2>
             <h1 className={`text-4xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-800'} mb-6`}>Projetos</h1>
             <div className="w-full flex flex-wrap items-center md:items-stretch justify-center gap-4 space-y-4 md:space-y-0 px-4 md:px-16 lg:px-32">
+                <div className={`w-full md:w-1/3 ${isDarkMode ? 'bg-gray-800 border-white' : 'bg-white border-gray-800'} p-6 rounded-lg border flex flex-col items-center justify-center`}>
+                    <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Wallet Wise</h3>
+                    <img
+                        alt='Imagem Wallet Wise'
+                        src={walletWise}
+                        className='w-full h-auto mb-4 rounded-md'
+                    />
+                    <div className='flex items-center justify-around space-x-4'>
+                        <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
+                            <a href="https://github.com/LinikerThiers/wallet-wise" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                                <FontAwesomeIcon icon={faGithub} className={`w-5 h-5 ${isDarkMode ? 'text-gray-300' : 'text-gray-800'}`} />
+                            </a>
+                        </button>
+                        <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-700 text-gray-800 bg-white hover:bg-gray-100'}`}>
+                            <a href="https://frontend-wallet-wise.onrender.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                                <FontAwesomeIcon icon={faExternalLinkAlt} className={`w-5 h-5 ${isDarkMode ? 'text-gray-300' : 'text-gray-800'}`} />
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
                 <div className={`w-full md:w-1/3 ${isDarkMode ? 'bg-gray-800 border-white' : 'bg-white border-gray-800'} p-6 rounded-lg border flex flex-col items-center justify-center`}>
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Futebol Statistics</h3>
                     <img
