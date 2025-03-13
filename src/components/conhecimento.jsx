@@ -64,6 +64,19 @@ const Conhecimentos = ({ isDarkMode }) => {
                         </li>
                     </ul>
                 </div>
+                <div className={`w-full md:w-1/5 ${isDarkMode ? 'bg-gray-800 white' : 'bg-white border-gray-600'} p-6 rounded-lg border flex-1`}>
+                    <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Mobile Development</h3>
+                    <ul className="space-y-2">
+                        <li className="flex justify-between items-center">
+                            <span className={`text-lg font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>Dart</span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original-wordmark.svg" alt="Flutter" className="w-12 h-12" />
+                        </li>
+                        <li className="flex justify-between items-center">
+                            <span className={`text-lg font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>Flutter</span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="Flutter" className="w-12 h-12" />
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     );

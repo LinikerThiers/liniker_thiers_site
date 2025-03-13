@@ -20,7 +20,11 @@ const SobreMim = ({ isDarkMode }) => {
             </div>
 
             <p className={`text-center ${isDarkMode ? 'text-gray-300' : 'text-gray-600'} mt-8 px-4 md:px-0 md:w-1/2`}>
-            Meu nome é Liniker Thiers, tenho 22 anos e sou estudante de Engenharia de Software na Faculdade UNOPAR na modalidade EAD. Sempre me interessei por programação e tecnologia, e estou focado em me tornar um programador Full-Stack. No Front-End, estou aprendendo tecnologias como React, Tailwind CSS e ViteJS. No Back-End, estou me aprofundando em Java, Spring Boot, Docker e PostgreSQL. Estou desenvolvendo projetos para aprimorar minhas habilidades e me tornar cada vez mais competente na área  
+                Meu nome é Liniker Thiers, tenho 22 anos e sou estudante de Engenharia de Software na Faculdade UNOPAR na modalidade EAD. Sempre me interessei por programação e tecnologia, e estou focado em me tornar um programador Full-Stack.<br></br>
+
+                No Front-End, estou aprendendo tecnologias como React, Tailwind CSS e ViteJS. No Back-End, estou me aprofundando em Java, Spring Boot, Docker e PostgreSQL. Além disso, estou estudando Flutter para desenvolvimento mobile.<br></br>
+
+                Estou desenvolvendo projetos para aprimorar minhas habilidades e me tornar cada vez mais competente na área.
             </p>
         </section>
     );

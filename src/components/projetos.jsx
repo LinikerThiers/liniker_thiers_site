@@ -8,6 +8,8 @@ import pokedex from '/pokedex.svg'
 import calculadoraEscolar from '/calculadora-de-media-escolar.svg'
 import contadorPalavras from '/contador-de-palavras.svg'
 import walletWise from '/wallet-wise.svg'
+import calculadoraImc from '/calculadora_imc_pag_1.png'
+import consultaCep from '/tela_inicio_consulta_cep.png'
 
 
 const Projetos = ({ isDarkMode }) => {
@@ -21,7 +23,7 @@ const Projetos = ({ isDarkMode }) => {
                     <img
                         alt='Imagem Wallet Wise'
                         src={walletWise}
-                        className='w-full h-auto mb-4 rounded-md'
+                        className='w-auto h-58 mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
@@ -38,11 +40,43 @@ const Projetos = ({ isDarkMode }) => {
                 </div>
 
                 <div className={`w-full md:w-1/3 ${isDarkMode ? 'bg-gray-800 border-white' : 'bg-white border-gray-800'} p-6 rounded-lg border flex flex-col items-center justify-center`}>
+                    <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>ConsultaCep App</h3>
+                    <img
+                        alt='ConsultaCep App'
+                        src={consultaCep}
+                        className='w-48 h-auto mb-4 rounded-md'
+                    />
+                    <div className='flex items-center justify-around space-x-4'>
+                        <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
+                            <a href="https://github.com/LinikerThiers/consultar-cep-app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                                <FontAwesomeIcon icon={faGithub} className={`w-5 h-5 ${isDarkMode ? 'text-gray-300' : 'text-gray-800'}`} />
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div className={`w-full md:w-1/3 ${isDarkMode ? 'bg-gray-800 border-white' : 'bg-white border-gray-800'} p-6 rounded-lg border flex flex-col items-center justify-center`}>
+                    <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Calculadora IMC App</h3>
+                    <img
+                        alt='Imagem Calculadora IMC App'
+                        src={calculadoraImc}
+                        className='w-48 h-auto mb-4 rounded-md'
+                    />
+                    <div className='flex items-center justify-around space-x-4'>
+                        <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
+                            <a href="https://github.com/LinikerThiers/calculadora_imc_flutter_" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                                <FontAwesomeIcon icon={faGithub} className={`w-5 h-5 ${isDarkMode ? 'text-gray-300' : 'text-gray-800'}`} />
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div className={`w-full md:w-1/3 ${isDarkMode ? 'bg-gray-800 border-white' : 'bg-white border-gray-800'} p-6 rounded-lg border flex flex-col items-center justify-center`}>
                     <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Futebol Statistics</h3>
                     <img
                         alt='Imagem Futebol Statistics'
                         src={futebolStatistics}
-                        className='w-full h-auto mb-4 rounded-md'
+                        className='w-auto h-58 mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
@@ -63,7 +97,7 @@ const Projetos = ({ isDarkMode }) => {
                     <img
                         alt='Imagem old e-commerce'
                         src={oldEcommerce}
-                        className='w-full h-auto mb-4 rounded-md'
+                        className='w-auto h-58 mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
@@ -84,7 +118,7 @@ const Projetos = ({ isDarkMode }) => {
                     <img
                         alt='Imagem Pokedex'
                         src={pokedex}
-                        className='w-full h-auto mb-4 rounded-md'
+                        className='w-auto h-58 mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
@@ -105,7 +139,7 @@ const Projetos = ({ isDarkMode }) => {
                     <img
                         alt='Imagem calculadora'
                         src={calculadoraEscolar}
-                        className='w-full h-auto mb-4 rounded-md'
+                        className='w-auto h-58 mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
@@ -121,7 +155,7 @@ const Projetos = ({ isDarkMode }) => {
                     <img
                         alt='Imagem contador de palavras'
                         src={contadorPalavras}
-                        className='w-full h-auto mb-4 rounded-md'
+                        className='w-auto h-58 mb-4 rounded-md'
                     />
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
