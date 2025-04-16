@@ -11,6 +11,7 @@ import walletWise from '/wallet-wise.svg'
 import calculadoraImc from '/calculadora_imc_pag_1.png'
 import consultaCep from '/tela_inicio_consulta_cep.png'
 import listaDeContatosApp from '/lista-de-contatos-page1.png'
+import descubraSigno from '/descubra-seu-signo-php.png'
 
 
 const Projetos = ({ isDarkMode }) => {
@@ -177,6 +178,22 @@ const Projetos = ({ isDarkMode }) => {
                     <div className='flex items-center justify-around space-x-4'>
                         <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
                             <a href="https://github.com/LinikerThiers/contador-de-palavras" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                                <FontAwesomeIcon icon={faGithub} className={`w-5 h-5 ${isDarkMode ? 'text-gray-300' : 'text-gray-800'}`} />
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                 {/* Descubra seu signo */}
+                 <div className={`w-full md:w-1/3 ${isDarkMode ? 'bg-gray-800 border-white' : 'bg-white border-gray-800'} p-6 rounded-lg border flex flex-col items-center justify-center`}>
+                    <h3 className={`text-xl font-medium ${isDarkMode ? 'text-gray-100' : 'text-gray-800'} mb-4 text-center`}>Descubra seu signo</h3>
+                    <img
+                        alt='Imagem descubra seu signo'
+                        src={descubraSigno}
+                        className='w-auto h-58 mb-4 rounded-md'
+                    />
+                    <div className='flex items-center justify-around space-x-4'>
+                        <button className={`px-4 py-2 border rounded-lg ${isDarkMode ? 'border-gray-400 text-gray-300 bg-gray-800 hover:bg-gray-700' : 'border-gray-800 text-gray-800 bg-white hover:bg-gray-100'}`}>
+                            <a href="https://github.com/LinikerThiers/signos_php" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                                 <FontAwesomeIcon icon={faGithub} className={`w-5 h-5 ${isDarkMode ? 'text-gray-300' : 'text-gray-800'}`} />
                             </a>
                         </button>

@@ -22,6 +22,10 @@ const Conhecimentos = ({ isDarkMode }) => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-12 h-12" />
                         </li>
                         <li className="flex justify-between items-center">
+                            <span className={`text-lg font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>PHP</span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" className="w-12 h-12" />
+                        </li>
+                        <li className="flex justify-between items-center">
                             <span className={`text-lg font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>React</span>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" className="w-12 h-12" />
                         </li>
